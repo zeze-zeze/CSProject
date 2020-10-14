@@ -1,0 +1,1655 @@
+No.,section,index_entry
+1,Thread-specific Data,*pthread_getspecific
+2,Resizing the Data Segment,*sbrk
+3,Semaphores,*sem_open
+4,Termination Internals,_exit
+5,Termination Internals,_Exit
+6,Flushing Buffers,_flushlbf
+7,Case Conversion,_tolower
+8,Case Conversion,_toupper
+9,Controlling Buffering,__fbufsize
+10,Controlling Buffering,__flbf
+11,Controlling Buffering,__fpending
+12,Flushing Buffers,__fpurge
+13,Opening Streams,__freadable
+14,Opening Streams,__freading
+15,Streams and Threads,__fsetlocking
+16,Opening Streams,__fwritable
+17,Opening Streams,__fwriting
+18,PowerPC,__ppc_get_timebase
+19,PowerPC,__ppc_get_timebase_freq
+20,PowerPC,__ppc_mdoio
+21,PowerPC,__ppc_mdoom
+22,PowerPC,__ppc_set_ppr_low
+23,PowerPC,__ppc_set_ppr_med
+24,PowerPC,__ppc_set_ppr_med_high
+25,PowerPC,__ppc_set_ppr_med_low
+26,PowerPC,__ppc_set_ppr_very_low
+27,PowerPC,__ppc_yield
+28,RISC-V,__riscv_flush_icache
+29,Argument Macros,__va_copy
+30,Encode Binary Data,a64l
+31,Aborting a Program,abort
+32,Absolute Value,abs
+33,Accepting Connections,accept
+34,Testing File Access,access
+35,Inverse Trig Functions,acos
+36,Inverse Trig Functions,acosf
+37,Inverse Trig Functions,acosfN
+38,Inverse Trig Functions,acosfNx
+39,Hyperbolic Functions,acosh
+40,Hyperbolic Functions,acoshf
+41,Hyperbolic Functions,acoshfN
+42,Hyperbolic Functions,acoshfNx
+43,Hyperbolic Functions,acoshl
+44,Inverse Trig Functions,acosl
+45,mtab,addmntent
+46,Adding Severity Classes,addseverity
+47,Setting and Adjusting the Time,adjtime
+48,Setting and Adjusting the Time,adjtimex
+49,Cancel AIO Operations,aio_cancel
+50,Cancel AIO Operations,aio_cancel64
+51,Status of AIO Operations,aio_error
+52,Status of AIO Operations,aio_error64
+53,Synchronizing AIO Operations,aio_fsync
+54,Synchronizing AIO Operations,aio_fsync64
+55,Configuration of AIO,aio_init
+56,Asynchronous Reads/Writes,aio_read
+57,Asynchronous Reads/Writes,aio_read64
+58,Status of AIO Operations,aio_return
+59,Status of AIO Operations,aio_return64
+60,Synchronizing AIO Operations,aio_suspend
+61,Synchronizing AIO Operations,aio_suspend64
+62,Asynchronous Reads/Writes,aio_write
+63,Asynchronous Reads/Writes,aio_write64
+64,Setting an Alarm,alarm
+65,Aligned Memory Blocks,aligned_alloc
+66,Variable Size Automatic,alloca
+67,Scanning Directory Content,alphasort
+68,Scanning Directory Content,alphasort64
+69,Argp Helper Functions,argp_error
+70,Argp Helper Functions,argp_failure
+71,Argp Help,argp_help
+72,Argp,argp_parse
+73,Argp Helper Functions,argp_state_help
+74,Argp Helper Functions,argp_usage
+75,Argz Functions,argz_add
+76,Argz Functions,argz_add_sep
+77,Argz Functions,argz_append
+78,Argz Functions,argz_count
+79,Argz Functions,argz_create
+80,Argz Functions,argz_create_sep
+81,Argz Functions,argz_delete
+82,Argz Functions,argz_extract
+83,Argz Functions,argz_insert
+84,Argz Functions,argz_next
+85,Argz Functions,argz_replace
+86,Argz Functions,argz_stringify
+87,Formatting Calendar Time,asctime
+88,Formatting Calendar Time,asctime_r
+89,Inverse Trig Functions,asin
+90,Inverse Trig Functions,asinf
+91,Inverse Trig Functions,asinfN
+92,Inverse Trig Functions,asinfNx
+93,Hyperbolic Functions,asinh
+94,Hyperbolic Functions,asinhf
+95,Hyperbolic Functions,asinhfN
+96,Hyperbolic Functions,asinhfNx
+97,Hyperbolic Functions,asinhl
+98,Inverse Trig Functions,asinl
+99,Dynamic Output,asprintf
+100,Consistency Checking,assert
+101,Consistency Checking,assert_perror
+102,Inverse Trig Functions,atan
+103,Inverse Trig Functions,atan2
+104,Inverse Trig Functions,atan2f
+105,Inverse Trig Functions,atan2fN
+106,Inverse Trig Functions,atan2fNx
+107,Inverse Trig Functions,atan2l
+108,Inverse Trig Functions,atanf
+109,Inverse Trig Functions,atanfN
+110,Inverse Trig Functions,atanfNx
+111,Hyperbolic Functions,atanh
+112,Hyperbolic Functions,atanhf
+113,Hyperbolic Functions,atanhfN
+114,Hyperbolic Functions,atanhfNx
+115,Hyperbolic Functions,atanhl
+116,Inverse Trig Functions,atanl
+117,Cleanups on Exit,atexit
+118,Parsing of Floats,atof
+119,Parsing of Integers,atoi
+120,Parsing of Integers,atol
+121,Parsing of Integers,atoll
+122,Backtraces,backtrace
+123,Backtraces,backtrace_symbols
+124,Backtraces,backtrace_symbols_fd
+125,Finding Tokens in a String,basename
+126,Finding Tokens in a String,basename
+127,String/Array Comparison,bcmp
+128,Copying Strings and Arrays,bcopy
+129,Setting Address,bind
+130,Locating gettext catalog,bindtextdomain
+131,Charset conversion in gettext,bind_textdomain_codeset
+132,Resizing the Data Segment,brk
+133,Array Search Function,bsearch
+134,Converting a Character,btowc
+135,Copying Strings and Arrays,bzero
+136,Absolute Value,cabs
+137,Absolute Value,cabsf
+138,Absolute Value,cabsfN
+139,Absolute Value,cabsfNx
+140,Absolute Value,cabsl
+141,Inverse Trig Functions,cacos
+142,Inverse Trig Functions,cacosf
+143,Inverse Trig Functions,cacosfN
+144,Inverse Trig Functions,cacosfNx
+145,Hyperbolic Functions,cacosh
+146,Hyperbolic Functions,cacoshf
+147,Hyperbolic Functions,cacoshfN
+148,Hyperbolic Functions,cacoshfNx
+149,Hyperbolic Functions,cacoshl
+150,Inverse Trig Functions,cacosl
+151,Allocating Cleared Space,calloc
+152,Call Once,call_once
+153,FP Bit Twiddling,canonicalize
+154,FP Bit Twiddling,canonicalizef
+155,FP Bit Twiddling,canonicalizefN
+156,FP Bit Twiddling,canonicalizefNx
+157,FP Bit Twiddling,canonicalizel
+158,Symbolic Links,canonicalize_file_name
+159,Operations on Complex,carg
+160,Operations on Complex,cargf
+161,Operations on Complex,cargfN
+162,Operations on Complex,cargfNx
+163,Operations on Complex,cargl
+164,Inverse Trig Functions,casin
+165,Inverse Trig Functions,casinf
+166,Inverse Trig Functions,casinfN
+167,Inverse Trig Functions,casinfNx
+168,Hyperbolic Functions,casinh
+169,Hyperbolic Functions,casinhf
+170,Hyperbolic Functions,casinhfN
+171,Hyperbolic Functions,casinhfNx
+172,Hyperbolic Functions,casinhl
+173,Inverse Trig Functions,casinl
+174,Inverse Trig Functions,catan
+175,Inverse Trig Functions,catanf
+176,Inverse Trig Functions,catanfN
+177,Inverse Trig Functions,catanfNx
+178,Hyperbolic Functions,catanh
+179,Hyperbolic Functions,catanhf
+180,Hyperbolic Functions,catanhfN
+181,Hyperbolic Functions,catanhfNx
+182,Hyperbolic Functions,catanhl
+183,Inverse Trig Functions,catanl
+184,The catgets Functions,catclose
+185,The catgets Functions,catgets
+186,The catgets Functions,catopen
+187,Exponents and Logarithms,cbrt
+188,Exponents and Logarithms,cbrtf
+189,Exponents and Logarithms,cbrtfN
+190,Exponents and Logarithms,cbrtfNx
+191,Exponents and Logarithms,cbrtl
+192,Trig Functions,ccos
+193,Trig Functions,ccosf
+194,Trig Functions,ccosfN
+195,Trig Functions,ccosfNx
+196,Hyperbolic Functions,ccosh
+197,Hyperbolic Functions,ccoshf
+198,Hyperbolic Functions,ccoshfN
+199,Hyperbolic Functions,ccoshfNx
+200,Hyperbolic Functions,ccoshl
+201,Trig Functions,ccosl
+202,Rounding Functions,ceil
+203,Rounding Functions,ceilf
+204,Rounding Functions,ceilfN
+205,Rounding Functions,ceilfNx
+206,Rounding Functions,ceill
+207,Exponents and Logarithms,cexp
+208,Exponents and Logarithms,cexpf
+209,Exponents and Logarithms,cexpfN
+210,Exponents and Logarithms,cexpfNx
+211,Exponents and Logarithms,cexpl
+212,Line Speed,cfgetispeed
+213,Line Speed,cfgetospeed
+214,Noncanonical Input,cfmakeraw
+215,Line Speed,cfsetispeed
+216,Line Speed,cfsetospeed
+217,Line Speed,cfsetspeed
+218,Working Directory,chdir
+219,Setting Permissions,chmod
+220,Setting Permissions,chmod
+221,File Owner,chown
+222,Operations on Complex,cimag
+223,Operations on Complex,cimagf
+224,Operations on Complex,cimagfN
+225,Operations on Complex,cimagfNx
+226,Operations on Complex,cimagl
+227,Environment Access,clearenv
+228,Error Recovery,clearerr
+229,Error Recovery,clearerr_unlocked
+230,CPU Time,clock
+231,Getting the Time,clock_getres
+232,Getting the Time,clock_gettime
+233,Setting and Adjusting the Time,clock_settime
+234,Exponents and Logarithms,clog
+235,Exponents and Logarithms,clog10
+236,Exponents and Logarithms,clog10f
+237,Exponents and Logarithms,clog10fN
+238,Exponents and Logarithms,clog10fNx
+239,Exponents and Logarithms,clog10l
+240,Exponents and Logarithms,clogf
+241,Exponents and Logarithms,clogfN
+242,Exponents and Logarithms,clogfNx
+243,Exponents and Logarithms,clogl
+244,Opening and Closing Files,close
+245,Reading/Closing Directory,closedir
+246,closelog,closelog
+247,ISO C Condition Variables,cnd_broadcast
+248,ISO C Condition Variables,cnd_destroy
+249,ISO C Condition Variables,cnd_init
+250,ISO C Condition Variables,cnd_signal
+251,ISO C Condition Variables,cnd_timedwait
+252,ISO C Condition Variables,cnd_wait
+253,String Parameters,confstr
+254,Operations on Complex,conj
+255,Operations on Complex,conjf
+256,Operations on Complex,conjfN
+257,Operations on Complex,conjfNx
+258,Operations on Complex,conjl
+259,Connecting,connect
+260,Actions in the NSS configuration,continue
+261,FP Bit Twiddling,copysign
+262,FP Bit Twiddling,copysignf
+263,FP Bit Twiddling,copysignfN
+264,FP Bit Twiddling,copysignfNx
+265,FP Bit Twiddling,copysignl
+266,Copying File Data,copy_file_range
+267,Trig Functions,cos
+268,Trig Functions,cosf
+269,Trig Functions,cosfN
+270,Trig Functions,cosfNx
+271,Hyperbolic Functions,cosh
+272,Hyperbolic Functions,coshf
+273,Hyperbolic Functions,coshfN
+274,Hyperbolic Functions,coshfNx
+275,Hyperbolic Functions,coshl
+276,Trig Functions,cosl
+277,Exponents and Logarithms,cpow
+278,Exponents and Logarithms,cpowf
+279,Exponents and Logarithms,cpowfN
+280,Exponents and Logarithms,cpowfNx
+281,Exponents and Logarithms,cpowl
+282,Operations on Complex,cproj
+283,Operations on Complex,cprojf
+284,Operations on Complex,cprojfN
+285,Operations on Complex,cprojfNx
+286,Operations on Complex,cprojl
+287,CPU Affinity,CPU_CLR
+288,CPU Affinity,CPU_ISSET
+289,CPU Affinity,CPU_SET
+290,CPU Affinity,CPU_ZERO
+291,Operations on Complex,creal
+292,Operations on Complex,crealf
+293,Operations on Complex,crealfN
+294,Operations on Complex,crealfNx
+295,Operations on Complex,creall
+296,Opening and Closing Files,creat
+297,Opening and Closing Files,creat64
+298,Passphrase Storage,crypt
+299,Passphrase Storage,crypt_r
+300,Trig Functions,csin
+301,Trig Functions,csinf
+302,Trig Functions,csinfN
+303,Trig Functions,csinfNx
+304,Hyperbolic Functions,csinh
+305,Hyperbolic Functions,csinhf
+306,Hyperbolic Functions,csinhfN
+307,Hyperbolic Functions,csinhfNx
+308,Hyperbolic Functions,csinhl
+309,Trig Functions,csinl
+310,Exponents and Logarithms,csqrt
+311,Exponents and Logarithms,csqrtf
+312,Exponents and Logarithms,csqrtfN
+313,Exponents and Logarithms,csqrtfNx
+314,Exponents and Logarithms,csqrtl
+315,Trig Functions,ctan
+316,Trig Functions,ctanf
+317,Trig Functions,ctanfN
+318,Trig Functions,ctanfNx
+319,Hyperbolic Functions,ctanh
+320,Hyperbolic Functions,ctanhf
+321,Hyperbolic Functions,ctanhfN
+322,Hyperbolic Functions,ctanhfNx
+323,Hyperbolic Functions,ctanhl
+324,Trig Functions,ctanl
+325,Identifying the Terminal,ctermid
+326,Formatting Calendar Time,ctime
+327,Formatting Calendar Time,ctime_r
+328,Who Logged In,cuserid
+329,Misc FP Arithmetic,daddl
+330,Translation with gettext,dcgettext
+331,Advanced gettext functions,dcngettext
+332,Misc FP Arithmetic,ddivl
+333,Translation with gettext,dgettext
+334,Calculating Elapsed Time,difftime
+335,Opening a Directory,dirfd
+336,Finding Tokens in a String,dirname
+337,Integer Division,div
+338,Misc FP Arithmetic,dmull
+339,Advanced gettext functions,dngettext
+340,SVID Random,drand48
+341,SVID Random,drand48_r
+342,Remainder Functions,drem
+343,Remainder Functions,dremf
+344,Remainder Functions,dreml
+345,Misc FP Arithmetic,dsubl
+346,Directory Entries,DTTOIF
+347,Duplicating Descriptors,dup
+348,Duplicating Descriptors,dup2
+349,System V Number Conversion,ecvt
+350,System V Number Conversion,ecvt_r
+351,fstab,endfsent
+352,Scanning All Groups,endgrent
+353,Host Names,endhostent
+354,mtab,endmntent
+355,Networks Database,endnetent
+356,Lookup Netgroup,endnetgrent
+357,Protocols Database,endprotoent
+358,Scanning All Users,endpwent
+359,Services Database,endservent
+360,Manipulating the Database,endutent
+361,XPG Functions,endutxent
+362,Envz Functions,envz_add
+363,Envz Functions,envz_entry
+364,Envz Functions,envz_get
+365,Envz Functions,envz_merge
+366,Envz Functions,envz_remove
+367,Envz Functions,envz_strip
+368,SVID Random,erand48
+369,SVID Random,erand48_r
+370,Special Functions,erf
+371,Special Functions,erfc
+372,Special Functions,erfcf
+373,Special Functions,erfcfN
+374,Special Functions,erfcfNx
+375,Special Functions,erfcl
+376,Special Functions,erff
+377,Special Functions,erffN
+378,Special Functions,erffNx
+379,Special Functions,erfl
+380,Error Messages,err
+381,Error Messages,error
+382,Error Messages,error_at_line
+383,Error Messages,errx
+384,Executing a File,execl
+385,Executing a File,execle
+386,Executing a File,execlp
+387,Executing a File,execv
+388,Executing a File,execve
+389,Executing a File,execvp
+390,Normal Termination,exit
+391,Exponents and Logarithms,exp
+392,Exponents and Logarithms,exp10
+393,Exponents and Logarithms,exp10f
+394,Exponents and Logarithms,exp10fN
+395,Exponents and Logarithms,exp10fNx
+396,Exponents and Logarithms,exp10l
+397,Exponents and Logarithms,exp2
+398,Exponents and Logarithms,exp2f
+399,Exponents and Logarithms,exp2fN
+400,Exponents and Logarithms,exp2fNx
+401,Exponents and Logarithms,exp2l
+402,Exponents and Logarithms,expf
+403,Exponents and Logarithms,expfN
+404,Exponents and Logarithms,expfNx
+405,Exponents and Logarithms,expl
+406,Erasing Sensitive Data,explicit_bzero
+407,Exponents and Logarithms,expm1
+408,Exponents and Logarithms,expm1f
+409,Exponents and Logarithms,expm1fN
+410,Exponents and Logarithms,expm1fNx
+411,Exponents and Logarithms,expm1l
+412,Absolute Value,fabs
+413,Absolute Value,fabsf
+414,Absolute Value,fabsfN
+415,Absolute Value,fabsfNx
+416,Absolute Value,fabsl
+417,Misc FP Arithmetic,fadd
+418,Misc FP Arithmetic,faddl
+419,Working Directory,fchdir
+420,Setting Permissions,fchmod
+421,File Owner,fchown
+422,Closing Streams,fclose
+423,Closing Streams,fcloseall
+424,Control Operations,fcntl
+425,System V Number Conversion,fcvt
+426,System V Number Conversion,fcvt_r
+427,Synchronizing I/O,fdatasync
+428,Misc FP Arithmetic,fdim
+429,Misc FP Arithmetic,fdimf
+430,Misc FP Arithmetic,fdimfN
+431,Misc FP Arithmetic,fdimfNx
+432,Misc FP Arithmetic,fdiml
+433,Misc FP Arithmetic,fdiv
+434,Misc FP Arithmetic,fdivl
+435,Descriptors and Streams,fdopen
+436,Opening a Directory,fdopendir
+437,Waiting for I/O,FD_CLR
+438,Waiting for I/O,FD_ISSET
+439,Waiting for I/O,FD_SET
+440,Waiting for I/O,FD_ZERO
+441,Status bit operations,feclearexcept
+442,Control Functions,fedisableexcept
+443,Control Functions,feenableexcept
+444,Control Functions,fegetenv
+445,Control Functions,fegetexcept
+446,Status bit operations,fegetexceptflag
+447,Control Functions,fegetmode
+448,Rounding,fegetround
+449,Control Functions,feholdexcept
+450,EOF and Errors,feof
+451,EOF and Errors,feof_unlocked
+452,Status bit operations,feraiseexcept
+453,EOF and Errors,ferror
+454,EOF and Errors,ferror_unlocked
+455,Control Functions,fesetenv
+456,Status bit operations,fesetexcept
+457,Status bit operations,fesetexceptflag
+458,Control Functions,fesetmode
+459,Rounding,fesetround
+460,Status bit operations,fetestexcept
+461,Status bit operations,fetestexceptflag
+462,Control Functions,feupdateenv
+463,Flushing Buffers,fflush
+464,Flushing Buffers,fflush_unlocked
+465,Character Input,fgetc
+466,Character Input,fgetc_unlocked
+467,Scanning All Groups,fgetgrent
+468,Scanning All Groups,fgetgrent_r
+469,Portable Positioning,fgetpos
+470,Portable Positioning,fgetpos64
+471,Scanning All Users,fgetpwent
+472,Scanning All Users,fgetpwent_r
+473,Line Input,fgets
+474,Line Input,fgets_unlocked
+475,Character Input,fgetwc
+476,Character Input,fgetwc_unlocked
+477,Line Input,fgetws
+478,Line Input,fgetws_unlocked
+479,Descriptors and Streams,fileno
+480,Descriptors and Streams,fileno_unlocked
+481,Floating Point Classes,finite
+482,Floating Point Classes,finitef
+483,Floating Point Classes,finitel
+484,Streams and Threads,flockfile
+485,Rounding Functions,floor
+486,Rounding Functions,floorf
+487,Rounding Functions,floorfN
+488,Rounding Functions,floorfNx
+489,Rounding Functions,floorl
+490,Misc FP Arithmetic,fma
+491,Misc FP Arithmetic,fMaddfN
+492,Misc FP Arithmetic,fMaddfNx
+493,Misc FP Arithmetic,fmaf
+494,Misc FP Arithmetic,fmafN
+495,Misc FP Arithmetic,fmafNx
+496,Misc FP Arithmetic,fmal
+497,Misc FP Arithmetic,fmax
+498,Misc FP Arithmetic,fmaxf
+499,Misc FP Arithmetic,fmaxfN
+500,Misc FP Arithmetic,fmaxfNx
+501,Misc FP Arithmetic,fmaxl
+502,Misc FP Arithmetic,fmaxmag
+503,Misc FP Arithmetic,fmaxmagf
+504,Misc FP Arithmetic,fmaxmagfN
+505,Misc FP Arithmetic,fmaxmagfNx
+506,Misc FP Arithmetic,fmaxmagl
+507,Misc FP Arithmetic,fMdivfN
+508,Misc FP Arithmetic,fMdivfNx
+509,String Streams,fmemopen
+510,Misc FP Arithmetic,fmin
+511,Misc FP Arithmetic,fminf
+512,Misc FP Arithmetic,fminfN
+513,Misc FP Arithmetic,fminfNx
+514,Misc FP Arithmetic,fminl
+515,Misc FP Arithmetic,fminmag
+516,Misc FP Arithmetic,fminmagf
+517,Misc FP Arithmetic,fminmagfN
+518,Misc FP Arithmetic,fminmagfNx
+519,Misc FP Arithmetic,fminmagl
+520,Misc FP Arithmetic,fMmulfN
+521,Misc FP Arithmetic,fMmulfNx
+522,Remainder Functions,fmod
+523,Remainder Functions,fmodf
+524,Remainder Functions,fmodfN
+525,Remainder Functions,fmodfNx
+526,Remainder Functions,fmodl
+527,Misc FP Arithmetic,fMsubfN
+528,Misc FP Arithmetic,fMsubfNx
+529,Printing Formatted Messages,fmtmsg
+530,Misc FP Arithmetic,fmul
+531,Misc FP Arithmetic,fmull
+532,Misc FP Arithmetic,fMxaddfN
+533,Misc FP Arithmetic,fMxaddfNx
+534,Misc FP Arithmetic,fMxdivfN
+535,Misc FP Arithmetic,fMxdivfNx
+536,Misc FP Arithmetic,fMxmulfN
+537,Misc FP Arithmetic,fMxmulfNx
+538,Misc FP Arithmetic,fMxsubfN
+539,Misc FP Arithmetic,fMxsubfNx
+540,Wildcard Matching,fnmatch
+541,Opening Streams,fopen
+542,Opening Streams,fopen64
+543,Streams and Cookies,fopencookie
+544,Creating a Process,fork
+545,Pseudo-Terminal Pairs,forkpty
+546,Pathconf,fpathconf
+547,Floating Point Classes,fpclassify
+548,Formatted Output Functions,fprintf
+549,Simple Output,fputc
+550,Simple Output,fputc_unlocked
+551,Simple Output,fputs
+552,Simple Output,fputs_unlocked
+553,Simple Output,fputwc
+554,Simple Output,fputwc_unlocked
+555,Simple Output,fputws
+556,Simple Output,fputws_unlocked
+557,Block Input/Output,fread
+558,Block Input/Output,fread_unlocked
+559,Freeing after Malloc,free
+560,Opening Streams,freopen
+561,Opening Streams,freopen64
+562,Normalization Functions,frexp
+563,Normalization Functions,frexpf
+564,Normalization Functions,frexpfN
+565,Normalization Functions,frexpfNx
+566,Normalization Functions,frexpl
+567,Rounding Functions,fromfp
+568,Rounding Functions,fromfpf
+569,Rounding Functions,fromfpfN
+570,Rounding Functions,fromfpfNx
+571,Rounding Functions,fromfpl
+572,Rounding Functions,fromfpx
+573,Rounding Functions,fromfpxf
+574,Rounding Functions,fromfpxfN
+575,Rounding Functions,fromfpxfNx
+576,Rounding Functions,fromfpxl
+577,Formatted Input Functions,fscanf
+578,File Positioning,fseek
+579,File Positioning,fseeko
+580,File Positioning,fseeko64
+581,Portable Positioning,fsetpos
+582,Portable Positioning,fsetpos64
+583,Reading Attributes,fstat
+584,Reading Attributes,fstat64
+585,Misc FP Arithmetic,fsub
+586,Misc FP Arithmetic,fsubl
+587,Synchronizing I/O,fsync
+588,File Positioning,ftell
+589,File Positioning,ftello
+590,File Positioning,ftello64
+591,File Size,ftruncate
+592,File Size,ftruncate64
+593,Streams and Threads,ftrylockfile
+594,Working with Directory Trees,ftw
+595,Working with Directory Trees,ftw64
+596,Streams and Threads,funlockfile
+597,File Times,futimes
+598,Streams and I18N,fwide
+599,Formatted Output Functions,fwprintf
+600,Block Input/Output,fwrite
+601,Block Input/Output,fwrite_unlocked
+602,Formatted Input Functions,fwscanf
+603,Special Functions,gamma
+604,Special Functions,gammaf
+605,Special Functions,gammal
+606,System V Number Conversion,gcvt
+607,Auxiliary Vector,getauxval
+608,Character Input,getc
+609,Character Input,getchar
+610,Character Input,getchar_unlocked
+611,System V contexts,getcontext
+612,CPU Affinity,getcpu
+613,Working Directory,getcwd
+614,Character Input,getc_unlocked
+615,General Time String Parsing,getdate
+616,General Time String Parsing,getdate_r
+617,Line Input,getdelim
+618,Low-level Directory Access,getdents64
+619,Host Identification,getdomainnname
+620,Reading Persona,getegid
+621,Unpredictable Bytes,getentropy
+622,Environment Access,getenv
+623,Reading Persona,geteuid
+624,fstab,getfsent
+625,fstab,getfsfile
+626,fstab,getfsspec
+627,Reading Persona,getgid
+628,Scanning All Groups,getgrent
+629,Scanning All Groups,getgrent_r
+630,Lookup Group,getgrgid
+631,Lookup Group,getgrgid_r
+632,Lookup Group,getgrnam
+633,Lookup Group,getgrnam_r
+634,Setting Groups,getgrouplist
+635,Reading Persona,getgroups
+636,Host Names,gethostbyaddr
+637,Host Names,gethostbyaddr_r
+638,Host Names,gethostbyname
+639,Host Names,gethostbyname2
+640,Host Names,gethostbyname2_r
+641,Host Names,gethostbyname_r
+642,Host Names,gethostent
+643,Host Identification,gethostid
+644,Host Identification,gethostname
+645,Setting an Alarm,getitimer
+646,Line Input,getline
+647,Processor Resources,getloadavg
+648,Who Logged In,getlogin
+649,mtab,getmntent
+650,mtab,getmntent_r
+651,Networks Database,getnetbyaddr
+652,Networks Database,getnetbyname
+653,Networks Database,getnetent
+654,Lookup Netgroup,getnetgrent
+655,Lookup Netgroup,getnetgrent_r
+656,Using Getopt,getopt
+657,Getopt Long Options,getopt_long
+658,Getopt Long Options,getopt_long_only
+659,Query Memory Parameters,getpagesize
+660,getpass,getpass
+661,FP Bit Twiddling,getpayload
+662,FP Bit Twiddling,getpayloadf
+663,FP Bit Twiddling,getpayloadfN
+664,FP Bit Twiddling,getpayloadfNx
+665,FP Bit Twiddling,getpayloadl
+666,Who is Connected,getpeername
+667,Process Group Functions,getpgid
+668,Process Group Functions,getpgrp
+669,Process Identification,getpid
+670,Process Identification,getppid
+671,Traditional Scheduling Functions,getpriority
+672,Protocols Database,getprotobyname
+673,Protocols Database,getprotobynumber
+674,Protocols Database,getprotoent
+675,Allocation,getpt
+676,Scanning All Users,getpwent
+677,Scanning All Users,getpwent_r
+678,Lookup User,getpwnam
+679,Lookup User,getpwnam_r
+680,Lookup User,getpwuid
+681,Lookup User,getpwuid_r
+682,Unpredictable Bytes,getrandom
+683,Limits on Resources,getrlimit
+684,Limits on Resources,getrlimit64
+685,Resource Usage,getrusage
+686,Line Input,gets
+687,Services Database,getservbyname
+688,Services Database,getservbyport
+689,Services Database,getservent
+690,Process Group Functions,getsid
+691,Reading Address,getsockname
+692,Socket Option Functions,getsockopt
+693,Suboptions,getsubopt
+694,Translation with gettext,gettext
+695,Process Identification,gettid
+696,Getting the Time,gettimeofday
+697,Reading Persona,getuid
+698,Setting Permissions,getumask
+699,Manipulating the Database,getutent
+700,Manipulating the Database,getutent_r
+701,Manipulating the Database,getutid
+702,Manipulating the Database,getutid_r
+703,Manipulating the Database,getutline
+704,Manipulating the Database,getutline_r
+705,XPG Functions,getutmp
+706,XPG Functions,getutmpx
+707,XPG Functions,getutxent
+708,XPG Functions,getutxid
+709,XPG Functions,getutxline
+710,Character Input,getw
+711,Character Input,getwc
+712,Character Input,getwchar
+713,Character Input,getwchar_unlocked
+714,Character Input,getwc_unlocked
+715,Working Directory,getwd
+716,Query Memory Parameters,get_avphys_pages
+717,Working Directory,get_current_dir_name
+718,Processor Resources,get_nprocs
+719,Processor Resources,get_nprocs_conf
+720,Query Memory Parameters,get_phys_pages
+721,Calling Glob,glob
+722,Calling Glob,glob64
+723,More Flags for Globbing,globfree
+724,More Flags for Globbing,globfree64
+725,Broken-down Time,gmtime
+726,Broken-down Time,gmtime_r
+727,Allocation,grantpt
+728,Configuring and compiling,grantpt
+729,Signaling Yourself,gsignal
+730,BSD Terminal Modes,gtty
+731,mtab,hasmntopt
+732,Hash Search Function,hcreate
+733,Hash Search Function,hcreate_r
+734,Hash Search Function,hdestroy
+735,Hash Search Function,hdestroy_r
+736,Hash Search Function,hsearch
+737,Hash Search Function,hsearch_r
+738,Byte Order,htonl
+739,Byte Order,htons
+740,Exponents and Logarithms,hypot
+741,Exponents and Logarithms,hypotf
+742,Exponents and Logarithms,hypotfN
+743,Exponents and Logarithms,hypotfNx
+744,Exponents and Logarithms,hypotl
+745,Generic Conversion Interface,iconv
+746,Generic Conversion Interface,iconv_close
+747,Generic Conversion Interface,iconv_open
+748,Directory Entries,IFTODT
+749,Interface Naming,if_freenameindex
+750,Interface Naming,if_indextoname
+751,Interface Naming,if_nameindex
+752,Interface Naming,if_nametoindex
+753,Exponents and Logarithms,ilogb
+754,Exponents and Logarithms,ilogbf
+755,Exponents and Logarithms,ilogbfN
+756,Exponents and Logarithms,ilogbfNx
+757,Exponents and Logarithms,ilogbl
+758,Absolute Value,imaxabs
+759,Integer Division,imaxdiv
+760,Search Functions,index
+761,Host Address Functions,inet_addr
+762,Host Address Functions,inet_aton
+763,Host Address Functions,inet_lnaof
+764,Host Address Functions,inet_makeaddr
+765,Host Address Functions,inet_netof
+766,Host Address Functions,inet_network
+767,Host Address Functions,inet_ntoa
+768,Host Address Functions,inet_ntop
+769,Host Address Functions,inet_pton
+770,Setting Groups,initgroups
+771,BSD Random,initstate
+772,BSD Random,initstate_r
+773,Netgroup Membership,innetgr
+774,IOCTLs,ioctl
+775,Classification of Characters,isalnum
+776,Classification of Characters,isalpha
+777,Classification of Characters,isascii
+778,Is It a Terminal,isatty
+779,Classification of Characters,isblank
+780,Floating Point Classes,iscanonical
+781,Classification of Characters,iscntrl
+782,Classification of Characters,isdigit
+783,FP Comparison Functions,iseqsig
+784,Floating Point Classes,isfinite
+785,Classification of Characters,isgraph
+786,FP Comparison Functions,isgreater
+787,FP Comparison Functions,isgreaterequal
+788,Floating Point Classes,isinf
+789,Floating Point Classes,isinff
+790,Floating Point Classes,isinfl
+791,FP Comparison Functions,isless
+792,FP Comparison Functions,islessequal
+793,FP Comparison Functions,islessgreater
+794,Classification of Characters,islower
+795,Floating Point Classes,isnan
+796,Floating Point Classes,isnan
+797,Floating Point Classes,isnanf
+798,Floating Point Classes,isnanl
+799,Floating Point Classes,isnormal
+800,Classification of Characters,isprint
+801,Classification of Characters,ispunct
+802,Floating Point Classes,issignaling
+803,Classification of Characters,isspace
+804,Floating Point Classes,issubnormal
+805,FP Comparison Functions,isunordered
+806,Classification of Characters,isupper
+807,Classification of Wide Characters,iswalnum
+808,Classification of Wide Characters,iswalpha
+809,Classification of Wide Characters,iswblank
+810,Classification of Wide Characters,iswcntrl
+811,Classification of Wide Characters,iswctype
+812,Classification of Wide Characters,iswdigit
+813,Classification of Wide Characters,iswgraph
+814,Classification of Wide Characters,iswlower
+815,Classification of Wide Characters,iswprint
+816,Classification of Wide Characters,iswpunct
+817,Classification of Wide Characters,iswspace
+818,Classification of Wide Characters,iswupper
+819,Classification of Wide Characters,iswxdigit
+820,Classification of Characters,isxdigit
+821,Floating Point Classes,iszero
+822,Special Functions,j0
+823,Special Functions,j0f
+824,Special Functions,j0fN
+825,Special Functions,j0fNx
+826,Special Functions,j0l
+827,Special Functions,j1
+828,Special Functions,j1f
+829,Special Functions,j1fN
+830,Special Functions,j1fNx
+831,Special Functions,j1l
+832,Special Functions,jn
+833,Special Functions,jnf
+834,Special Functions,jnfN
+835,Special Functions,jnfNx
+836,Special Functions,jnl
+837,SVID Random,jrand48
+838,SVID Random,jrand48_r
+839,Signaling Another Process,kill
+840,Signaling Another Process,killpg
+841,Encode Binary Data,l64a
+842,Absolute Value,labs
+843,SVID Random,lcong48
+844,SVID Random,lcong48_r
+845,Normalization Functions,ldexp
+846,Normalization Functions,ldexpf
+847,Normalization Functions,ldexpfN
+848,Normalization Functions,ldexpfNx
+849,Normalization Functions,ldexpl
+850,Integer Division,ldiv
+851,Array Search Function,lfind
+852,Special Functions,lgamma
+853,Special Functions,lgammaf
+854,Special Functions,lgammafN
+855,Special Functions,lgammafNx
+856,Special Functions,lgammafNx_r
+857,Special Functions,lgammafN_r
+858,Special Functions,lgammaf_r
+859,Special Functions,lgammal
+860,Special Functions,lgammal_r
+861,Special Functions,lgamma_r
+862,Hard Links,link
+863,Hard Links,linkat
+864,Asynchronous Reads/Writes,lio_listio
+865,Asynchronous Reads/Writes,lio_listio64
+866,Listening,listen
+867,Absolute Value,llabs
+868,Integer Division,lldiv
+869,Exponents and Logarithms,llogb
+870,Exponents and Logarithms,llogbf
+871,Exponents and Logarithms,llogbfN
+872,Exponents and Logarithms,llogbfNx
+873,Exponents and Logarithms,llogbl
+874,Rounding Functions,llrint
+875,Rounding Functions,llrintf
+876,Rounding Functions,llrintfN
+877,Rounding Functions,llrintfNx
+878,Rounding Functions,llrintl
+879,Rounding Functions,llround
+880,Rounding Functions,llroundf
+881,Rounding Functions,llroundfN
+882,Rounding Functions,llroundfNx
+883,Rounding Functions,llroundl
+884,The Lame Way to Locale Data,localeconv
+885,Broken-down Time,localtime
+886,Broken-down Time,localtime_r
+887,Exponents and Logarithms,log
+888,Exponents and Logarithms,log10
+889,Exponents and Logarithms,log10f
+890,Exponents and Logarithms,log10fN
+891,Exponents and Logarithms,log10fNx
+892,Exponents and Logarithms,log10l
+893,Exponents and Logarithms,log1p
+894,Exponents and Logarithms,log1pf
+895,Exponents and Logarithms,log1pfN
+896,Exponents and Logarithms,log1pfNx
+897,Exponents and Logarithms,log1pl
+898,Exponents and Logarithms,log2
+899,Exponents and Logarithms,log2f
+900,Exponents and Logarithms,log2fN
+901,Exponents and Logarithms,log2fNx
+902,Exponents and Logarithms,log2l
+903,Exponents and Logarithms,logb
+904,Exponents and Logarithms,logbf
+905,Exponents and Logarithms,logbfN
+906,Exponents and Logarithms,logbfNx
+907,Exponents and Logarithms,logbl
+908,Exponents and Logarithms,logf
+909,Exponents and Logarithms,logfN
+910,Exponents and Logarithms,logfNx
+911,Logging In and Out,login
+912,Logging In and Out,login_tty
+913,Exponents and Logarithms,logl
+914,Logging In and Out,logout
+915,Logging In and Out,logwtmp
+916,Non-Local Details,longjmp
+917,SVID Random,lrand48
+918,SVID Random,lrand48_r
+919,Rounding Functions,lrint
+920,Rounding Functions,lrintf
+921,Rounding Functions,lrintfN
+922,Rounding Functions,lrintfNx
+923,Rounding Functions,lrintl
+924,Rounding Functions,lround
+925,Rounding Functions,lroundf
+926,Rounding Functions,lroundfN
+927,Rounding Functions,lroundfNx
+928,Rounding Functions,lroundl
+929,Array Search Function,lsearch
+930,File Position Primitive,lseek
+931,File Position Primitive,lseek64
+932,Reading Attributes,lstat
+933,Reading Attributes,lstat64
+934,File Times,lutimes
+935,Memory-mapped I/O,madvise
+936,Program Arguments,main
+937,System V contexts,makecontext
+938,Statistics of Malloc,mallinfo
+939,Basic Allocation,malloc
+940,Malloc Tunable Parameters,mallopt
+941,Non-reentrant Character Conversion,mblen
+942,Converting a Character,mbrlen
+943,Converting a Character,mbrtowc
+944,Keeping the state,mbsinit
+945,Converting Strings,mbsnrtowcs
+946,Converting Strings,mbsrtowcs
+947,Non-reentrant String Conversion,mbstowcs
+948,Non-reentrant Character Conversion,mbtowc
+949,Heap Consistency Checking,mcheck
+950,Aligned Memory Blocks,memalign
+951,Copying Strings and Arrays,memccpy
+952,Search Functions,memchr
+953,String/Array Comparison,memcmp
+954,Copying Strings and Arrays,memcpy
+955,Memory-mapped I/O,memfd_create
+956,Obfuscating Data,memfrob
+957,Search Functions,memmem
+958,Copying Strings and Arrays,memmove
+959,Copying Strings and Arrays,mempcpy
+960,Search Functions,memrchr
+961,Copying Strings and Arrays,memset
+962,Actions in the NSS configuration,merge
+963,Creating Directories,mkdir
+964,Temporary Files,mkdtemp
+965,FIFO Special Files,mkfifo
+966,Making Special Files,mknod
+967,Temporary Files,mkstemp
+968,Temporary Files,mktemp
+969,Broken-down Time,mktime
+970,Page Lock Functions,mlock
+971,Page Lock Functions,mlock2
+972,Page Lock Functions,mlockall
+973,Memory-mapped I/O,mmap
+974,Memory-mapped I/O,mmap64
+975,Rounding Functions,modf
+976,Rounding Functions,modff
+977,Rounding Functions,modffN
+978,Rounding Functions,modffNx
+979,Rounding Functions,modfl
+980,Mount-Unmount-Remount,mount
+981,Heap Consistency Checking,mprobe
+982,Memory Protection,mprotect
+983,SVID Random,mrand48
+984,SVID Random,mrand48_r
+985,Memory-mapped I/O,mremap
+986,Memory-mapped I/O,msync
+987,Tracing malloc,mtrace
+988,ISO C Mutexes,mtx_destroy
+989,ISO C Mutexes,mtx_init
+990,ISO C Mutexes,mtx_lock
+991,ISO C Mutexes,mtx_timedlock
+992,ISO C Mutexes,mtx_trylock
+993,ISO C Mutexes,mtx_unlock
+994,Page Lock Functions,munlock
+995,Page Lock Functions,munlockall
+996,Memory-mapped I/O,munmap
+997,Tracing malloc,muntrace
+998,FP Bit Twiddling,nan
+999,FP Bit Twiddling,nanf
+1000,FP Bit Twiddling,nanfN
+1001,FP Bit Twiddling,nanfNx
+1002,FP Bit Twiddling,nanl
+1003,Sleeping,nanosleep
+1004,Rounding Functions,nearbyint
+1005,Rounding Functions,nearbyintf
+1006,Rounding Functions,nearbyintfN
+1007,Rounding Functions,nearbyintfNx
+1008,Rounding Functions,nearbyintl
+1009,FP Bit Twiddling,nextafter
+1010,FP Bit Twiddling,nextafterf
+1011,FP Bit Twiddling,nextafterfN
+1012,FP Bit Twiddling,nextafterfNx
+1013,FP Bit Twiddling,nextafterl
+1014,FP Bit Twiddling,nextdown
+1015,FP Bit Twiddling,nextdownf
+1016,FP Bit Twiddling,nextdownfN
+1017,FP Bit Twiddling,nextdownfNx
+1018,FP Bit Twiddling,nextdownl
+1019,FP Bit Twiddling,nexttoward
+1020,FP Bit Twiddling,nexttowardf
+1021,FP Bit Twiddling,nexttowardl
+1022,FP Bit Twiddling,nextup
+1023,FP Bit Twiddling,nextupf
+1024,FP Bit Twiddling,nextupfN
+1025,FP Bit Twiddling,nextupfNx
+1026,FP Bit Twiddling,nextupl
+1027,Working with Directory Trees,nftw
+1028,Working with Directory Trees,nftw64
+1029,Advanced gettext functions,ngettext
+1030,Traditional Scheduling Functions,nice
+1031,The Elegant and Fast Way,nl_langinfo
+1032,Actions in the NSS configuration,notfound
+1033,SVID Random,nrand48
+1034,SVID Random,nrand48_r
+1035,Byte Order,ntohl
+1036,Byte Order,ntohs
+1037,Setting and Adjusting the Time,ntp_adjtime
+1038,Setting and Adjusting the Time,ntp_gettime
+1039,Growing Objects,obstack_1grow
+1040,Extra Fast Growing,obstack_1grow_fast
+1041,Obstacks Data Alignment,obstack_alignment_mask
+1042,Allocation in an Obstack,obstack_alloc
+1043,Status of an Obstack,obstack_base
+1044,Growing Objects,obstack_blank
+1045,Extra Fast Growing,obstack_blank_fast
+1046,Preparing for Obstacks,obstack_chunk_alloc
+1047,Preparing for Obstacks,obstack_chunk_free
+1048,Obstack Chunks,obstack_chunk_size
+1049,Allocation in an Obstack,obstack_copy
+1050,Allocation in an Obstack,obstack_copy0
+1051,Growing Objects,obstack_finish
+1052,Freeing Obstack Objects,obstack_free
+1053,Growing Objects,obstack_grow
+1054,Growing Objects,obstack_grow0
+1055,Preparing for Obstacks,obstack_init
+1056,Growing Objects,obstack_int_grow
+1057,Extra Fast Growing,obstack_int_grow_fast
+1058,Status of an Obstack,obstack_next_free
+1059,Growing Objects,obstack_object_size
+1060,Status of an Obstack,obstack_object_size
+1061,Dynamic Output,obstack_printf
+1062,Growing Objects,obstack_ptr_grow
+1063,Extra Fast Growing,obstack_ptr_grow_fast
+1064,Extra Fast Growing,obstack_room
+1065,Variable Arguments Output,obstack_vprintf
+1066,Structure Measurement,offsetof
+1067,Cleanups on Exit,on_exit
+1068,Opening and Closing Files,open
+1069,Opening and Closing Files,open64
+1070,Opening a Directory,opendir
+1071,openlog,openlog
+1072,Pseudo-Terminal Pairs,openpty
+1073,String Streams,open_memstream
+1074,Parsing a Template String,parse_printf_format
+1075,Pathconf,pathconf
+1076,Using Pause,pause
+1077,Pipe to a Subprocess,pclose
+1078,Error Messages,perror
+1079,Creating a Pipe,pipe
+1080,Memory Protection,pkey_alloc
+1081,Memory Protection,pkey_free
+1082,Memory Protection,pkey_get
+1083,Memory Protection,pkey_mprotect
+1084,Memory Protection,pkey_set
+1085,Pipe to a Subprocess,popen
+1086,Storage Allocation,posix_fallocate
+1087,Storage Allocation,posix_fallocate64
+1088,Aligned Memory Blocks,posix_memalign
+1089,Exponents and Logarithms,pow
+1090,Exponents and Logarithms,powf
+1091,Exponents and Logarithms,powfN
+1092,Exponents and Logarithms,powfNx
+1093,Exponents and Logarithms,powl
+1094,I/O Primitives,pread
+1095,I/O Primitives,pread64
+1096,Scatter-Gather,preadv
+1097,Scatter-Gather,preadv2
+1098,Scatter-Gather,preadv64
+1099,Scatter-Gather,preadv64v2
+1100,Formatted Output Functions,printf
+1101,Predefined Printf Handlers,printf_size
+1102,Predefined Printf Handlers,printf_size_info
+1103,Signal Messages,psignal
+1104,Default Thread Attributes,pthread_clockjoin_np
+1105,Default Thread Attributes,pthread_cond_clockwait
+1106,Default Thread Attributes,pthread_getattr_default_np
+1107,Thread-specific Data,pthread_key_create
+1108,Thread-specific Data,pthread_key_delete
+1109,Default Thread Attributes,pthread_rwlock_clockrdlock
+1110,Default Thread Attributes,pthread_rwlock_clockwrlock
+1111,Default Thread Attributes,pthread_setattr_default_np
+1112,Thread-specific Data,pthread_setspecific
+1113,Default Thread Attributes,pthread_timedjoin_np
+1114,Default Thread Attributes,pthread_tryjoin_np
+1115,Allocation,ptsname
+1116,Allocation,ptsname_r
+1117,Simple Output,putc
+1118,Simple Output,putchar
+1119,Simple Output,putchar_unlocked
+1120,Simple Output,putc_unlocked
+1121,Environment Access,putenv
+1122,Writing a User Entry,putpwent
+1123,Simple Output,puts
+1124,Manipulating the Database,pututline
+1125,XPG Functions,pututxline
+1126,Simple Output,putw
+1127,Simple Output,putwc
+1128,Simple Output,putwchar
+1129,Simple Output,putwchar_unlocked
+1130,Simple Output,putwc_unlocked
+1131,I/O Primitives,pwrite
+1132,I/O Primitives,pwrite64
+1133,Scatter-Gather,pwritev
+1134,Scatter-Gather,pwritev2
+1135,Scatter-Gather,pwritev64
+1136,Scatter-Gather,pwritev64v2
+1137,System V Number Conversion,qecvt
+1138,System V Number Conversion,qecvt_r
+1139,System V Number Conversion,qfcvt
+1140,System V Number Conversion,qfcvt_r
+1141,System V Number Conversion,qgcvt
+1142,Array Sort Function,qsort
+1143,Signaling Yourself,raise
+1144,ISO Random,rand
+1145,BSD Random,random
+1146,BSD Random,random_r
+1147,ISO Random,rand_r
+1148,Search Functions,rawmemchr
+1149,I/O Primitives,read
+1150,Reading/Closing Directory,readdir
+1151,Reading/Closing Directory,readdir64
+1152,Reading/Closing Directory,readdir64_r
+1153,Reading/Closing Directory,readdir_r
+1154,Symbolic Links,readlink
+1155,Scatter-Gather,readv
+1156,Changing Block Size,realloc
+1157,Changing Block Size,reallocarray
+1158,Symbolic Links,realpath
+1159,Receiving Data,recv
+1160,Receiving Datagrams,recvfrom
+1161,POSIX Regexp Compilation,regcomp
+1162,Regexp Cleanup,regerror
+1163,Matching POSIX Regexps,regexec
+1164,Regexp Cleanup,regfree
+1165,Registering New Conversions,register_printf_function
+1166,Remainder Functions,remainder
+1167,Remainder Functions,remainderf
+1168,Remainder Functions,remainderfN
+1169,Remainder Functions,remainderfNx
+1170,Remainder Functions,remainderl
+1171,Deleting Files,remove
+1172,Renaming Files,rename
+1173,Actions in the NSS configuration,return
+1174,File Positioning,rewind
+1175,Random Access Directory,rewinddir
+1176,Search Functions,rindex
+1177,Rounding Functions,rint
+1178,Rounding Functions,rintf
+1179,Rounding Functions,rintfN
+1180,Rounding Functions,rintfNx
+1181,Rounding Functions,rintl
+1182,Deleting Files,rmdir
+1183,Rounding Functions,round
+1184,Rounding Functions,roundeven
+1185,Rounding Functions,roundevenf
+1186,Rounding Functions,roundevenfN
+1187,Rounding Functions,roundevenfNx
+1188,Rounding Functions,roundevenl
+1189,Rounding Functions,roundf
+1190,Rounding Functions,roundfN
+1191,Rounding Functions,roundfNx
+1192,Rounding Functions,roundl
+1193,Yes-or-No Questions,rpmatch
+1194,Normalization Functions,scalb
+1195,Normalization Functions,scalbf
+1196,Normalization Functions,scalbl
+1197,Normalization Functions,scalbln
+1198,Normalization Functions,scalblnf
+1199,Normalization Functions,scalblnfN
+1200,Normalization Functions,scalblnfNx
+1201,Normalization Functions,scalblnl
+1202,Normalization Functions,scalbn
+1203,Normalization Functions,scalbnf
+1204,Normalization Functions,scalbnfN
+1205,Normalization Functions,scalbnfNx
+1206,Normalization Functions,scalbnl
+1207,Scanning Directory Content,scandir
+1208,Scanning Directory Content,scandir64
+1209,Formatted Input Functions,scanf
+1210,CPU Affinity,sched_getaffinity
+1211,Basic Scheduling Functions,sched_getparam
+1212,Basic Scheduling Functions,sched_getscheduler
+1213,Basic Scheduling Functions,sched_get_priority_max
+1214,Basic Scheduling Functions,sched_get_priority_min
+1215,Basic Scheduling Functions,sched_rr_get_interval
+1216,CPU Affinity,sched_setaffinity
+1217,Basic Scheduling Functions,sched_setparam
+1218,Basic Scheduling Functions,sched_setscheduler
+1219,Basic Scheduling Functions,sched_yield
+1220,Environment Access,secure_getenv
+1221,SVID Random,seed48
+1222,SVID Random,seed48_r
+1223,Random Access Directory,seekdir
+1224,Waiting for I/O,select
+1225,Semaphores,semctl
+1226,Semaphores,semget
+1227,Semaphores,semop
+1228,Semaphores,semtimedop
+1229,Default Thread Attributes,sem_clockwait
+1230,Semaphores,sem_close
+1231,Semaphores,sem_destroy
+1232,Semaphores,sem_getvalue
+1233,Semaphores,sem_init
+1234,Semaphores,sem_post
+1235,Semaphores,sem_timedwait
+1236,Semaphores,sem_trywait
+1237,Semaphores,sem_unlink
+1238,Semaphores,sem_wait
+1239,Sending Data,send
+1240,Sending Datagrams,sendto
+1241,Controlling Buffering,setbuf
+1242,Controlling Buffering,setbuffer
+1243,System V contexts,setcontext
+1244,Host Identification,setdomainname
+1245,Setting Groups,setegid
+1246,Environment Access,setenv
+1247,Setting User ID,seteuid
+1248,fstab,setfsent
+1249,Setting Groups,setgid
+1250,Scanning All Groups,setgrent
+1251,Setting Groups,setgroups
+1252,Host Names,sethostent
+1253,Host Identification,sethostid
+1254,Host Identification,sethostname
+1255,Setting an Alarm,setitimer
+1256,Non-Local Details,setjmp
+1257,Controlling Buffering,setlinebuf
+1258,Setting the Locale,setlocale
+1259,setlogmask,setlogmask
+1260,mtab,setmntent
+1261,Networks Database,setnetent
+1262,Lookup Netgroup,setnetgrent
+1263,FP Bit Twiddling,setpayload
+1264,FP Bit Twiddling,setpayloadf
+1265,FP Bit Twiddling,setpayloadfN
+1266,FP Bit Twiddling,setpayloadfNx
+1267,FP Bit Twiddling,setpayloadl
+1268,FP Bit Twiddling,setpayloadsig
+1269,FP Bit Twiddling,setpayloadsigf
+1270,FP Bit Twiddling,setpayloadsigfN
+1271,FP Bit Twiddling,setpayloadsigfNx
+1272,FP Bit Twiddling,setpayloadsigl
+1273,Process Group Functions,setpgid
+1274,Process Group Functions,setpgrp
+1275,Traditional Scheduling Functions,setpriority
+1276,Protocols Database,setprotoent
+1277,Scanning All Users,setpwent
+1278,Setting Groups,setregid
+1279,Setting User ID,setreuid
+1280,Limits on Resources,setrlimit
+1281,Limits on Resources,setrlimit64
+1282,Services Database,setservent
+1283,Process Group Functions,setsid
+1284,Socket Option Functions,setsockopt
+1285,BSD Random,setstate
+1286,BSD Random,setstate_r
+1287,Setting and Adjusting the Time,settimeofday
+1288,Setting User ID,setuid
+1289,Manipulating the Database,setutent
+1290,XPG Functions,setutxent
+1291,Controlling Buffering,setvbuf
+1292,Memory-mapped I/O,shm_open
+1293,Memory-mapped I/O,shm_unlink
+1294,Closing a Socket,shutdown
+1295,Advanced Signal Handling,sigaction
+1296,Signal Sets,sigaddset
+1297,Signal Stack,sigaltstack
+1298,BSD Signal Handling,sigblock
+1299,Signal Sets,sigdelset
+1300,Signal Sets,sigemptyset
+1301,Signal Sets,sigfillset
+1302,BSD Signal Handling,siginterrupt
+1303,Signal Sets,sigismember
+1304,Non-Local Exits and Signals,siglongjmp
+1305,BSD Signal Handling,sigmask
+1306,Basic Signal Handling,signal
+1307,FP Bit Twiddling,signbit
+1308,Normalization Functions,significand
+1309,Normalization Functions,significandf
+1310,Normalization Functions,significandl
+1311,BSD Signal Handling,sigpause
+1312,Checking for Pending Signals,sigpending
+1313,Process Signal Mask,sigprocmask
+1314,Non-Local Exits and Signals,sigsetjmp
+1315,BSD Signal Handling,sigsetmask
+1316,Signal Stack,sigstack
+1317,Sigsuspend,sigsuspend
+1318,Trig Functions,sin
+1319,Trig Functions,sincos
+1320,Trig Functions,sincosf
+1321,Trig Functions,sincosfN
+1322,Trig Functions,sincosfNx
+1323,Trig Functions,sincosl
+1324,Trig Functions,sinf
+1325,Trig Functions,sinfN
+1326,Trig Functions,sinfNx
+1327,Hyperbolic Functions,sinh
+1328,Hyperbolic Functions,sinhf
+1329,Hyperbolic Functions,sinhfN
+1330,Hyperbolic Functions,sinhfNx
+1331,Hyperbolic Functions,sinhl
+1332,Trig Functions,sinl
+1333,Sleeping,sleep
+1334,Formatted Output Functions,snprintf
+1335,Creating a Socket,socket
+1336,Socket Pairs,socketpair
+1337,Formatted Output Functions,sprintf
+1338,Exponents and Logarithms,sqrt
+1339,Exponents and Logarithms,sqrtf
+1340,Exponents and Logarithms,sqrtfN
+1341,Exponents and Logarithms,sqrtfNx
+1342,Exponents and Logarithms,sqrtl
+1343,ISO Random,srand
+1344,SVID Random,srand48
+1345,SVID Random,srand48_r
+1346,BSD Random,srandom
+1347,BSD Random,srandom_r
+1348,Formatted Input Functions,sscanf
+1349,Basic Signal Handling,ssignal
+1350,Reading Attributes,stat
+1351,Reading Attributes,stat64
+1352,Setting and Adjusting the Time,stime
+1353,Copying Strings and Arrays,stpcpy
+1354,Truncating Strings,stpncpy
+1355,String/Array Comparison,strcasecmp
+1356,Search Functions,strcasestr
+1357,Concatenating Strings,strcat
+1358,Search Functions,strchr
+1359,Search Functions,strchrnul
+1360,String/Array Comparison,strcmp
+1361,Collation Functions,strcoll
+1362,Copying Strings and Arrays,strcpy
+1363,Search Functions,strcspn
+1364,Copying Strings and Arrays,strdup
+1365,Copying Strings and Arrays,strdupa
+1366,Error Messages,strerror
+1367,Error Messages,strerror_r
+1368,Formatting Numbers,strfmon
+1369,Printing of Floats,strfromd
+1370,Printing of Floats,strfromf
+1371,Printing of Floats,strfromfN
+1372,Printing of Floats,strfromfNx
+1373,Printing of Floats,strfroml
+1374,Shuffling Bytes,strfry
+1375,Formatting Calendar Time,strftime
+1376,String Length,strlen
+1377,String/Array Comparison,strncasecmp
+1378,Truncating Strings,strncat
+1379,String/Array Comparison,strncmp
+1380,Truncating Strings,strncpy
+1381,Truncating Strings,strndup
+1382,Truncating Strings,strndupa
+1383,String Length,strnlen
+1384,Search Functions,strpbrk
+1385,Low-Level Time String Parsing,strptime
+1386,Search Functions,strrchr
+1387,Finding Tokens in a String,strsep
+1388,Signal Messages,strsignal
+1389,Search Functions,strspn
+1390,Search Functions,strstr
+1391,Parsing of Floats,strtod
+1392,Parsing of Floats,strtof
+1393,Parsing of Floats,strtofN
+1394,Parsing of Floats,strtofNx
+1395,Parsing of Integers,strtoimax
+1396,Finding Tokens in a String,strtok
+1397,Finding Tokens in a String,strtok_r
+1398,Parsing of Integers,strtol
+1399,Parsing of Floats,strtold
+1400,Parsing of Integers,strtoll
+1401,Parsing of Integers,strtoq
+1402,Parsing of Integers,strtoul
+1403,Parsing of Integers,strtoull
+1404,Parsing of Integers,strtoumax
+1405,Parsing of Integers,strtouq
+1406,String/Array Comparison,strverscmp
+1407,Collation Functions,strxfrm
+1408,BSD Terminal Modes,stty
+1409,Actions in the NSS configuration,success
+1410,Local Namespace Details,SUN_LEN
+1411,System V contexts,swapcontext
+1412,Formatted Output Functions,swprintf
+1413,Formatted Input Functions,swscanf
+1414,Symbolic Links,symlink
+1415,Synchronizing I/O,sync
+1416,System Calls,syscall
+1417,Sysconf Definition,sysconf
+1418,System Parameters,sysctl
+1419,syslog; vsyslog,syslog
+1420,Running a Command,system
+1421,Basic Signal Handling,sysv_signal
+1422,Testing File Type,S_ISBLK
+1423,Testing File Type,S_ISCHR
+1424,Testing File Type,S_ISDIR
+1425,Testing File Type,S_ISFIFO
+1426,Testing File Type,S_ISLNK
+1427,Testing File Type,S_ISREG
+1428,Testing File Type,S_ISSOCK
+1429,Testing File Type,S_TYPEISMQ
+1430,Testing File Type,S_TYPEISSEM
+1431,Testing File Type,S_TYPEISSHM
+1432,Trig Functions,tan
+1433,Trig Functions,tanf
+1434,Trig Functions,tanfN
+1435,Trig Functions,tanfNx
+1436,Hyperbolic Functions,tanh
+1437,Hyperbolic Functions,tanhf
+1438,Hyperbolic Functions,tanhfN
+1439,Hyperbolic Functions,tanhfNx
+1440,Hyperbolic Functions,tanhl
+1441,Trig Functions,tanl
+1442,Line Control,tcdrain
+1443,Line Control,tcflow
+1444,Line Control,tcflush
+1445,Mode Functions,tcgetattr
+1446,Terminal Access Functions,tcgetpgrp
+1447,Terminal Access Functions,tcgetsid
+1448,Line Control,tcsendbreak
+1449,Mode Functions,tcsetattr
+1450,Terminal Access Functions,tcsetpgrp
+1451,Tree Search Function,tdelete
+1452,Tree Search Function,tdestroy
+1453,Random Access Directory,telldir
+1454,Temporary Files,tempnam
+1455,Interrupted Primitives,TEMP_FAILURE_RETRY
+1456,Locating gettext catalog,textdomain
+1457,Tree Search Function,tfind
+1458,Special Functions,tgamma
+1459,Special Functions,tgammaf
+1460,Special Functions,tgammafN
+1461,Special Functions,tgammafNx
+1462,Special Functions,tgammal
+1463,Signaling Another Process,tgkill
+1464,ISO C Thread Management,thrd_create
+1465,ISO C Thread Management,thrd_current
+1466,ISO C Thread Management,thrd_detach
+1467,ISO C Thread Management,thrd_equal
+1468,ISO C Thread Management,thrd_exit
+1469,ISO C Thread Management,thrd_join
+1470,ISO C Thread Management,thrd_sleep
+1471,ISO C Thread Management,thrd_yield
+1472,Getting the Time,time
+1473,Broken-down Time,timegm
+1474,Broken-down Time,timelocal
+1475,Processor Time,times
+1476,Temporary Files,tmpfile
+1477,Temporary Files,tmpfile64
+1478,Temporary Files,tmpnam
+1479,Temporary Files,tmpnam_r
+1480,Case Conversion,toascii
+1481,Case Conversion,tolower
+1482,FP Comparison Functions,totalorder
+1483,FP Comparison Functions,totalorderf
+1484,FP Comparison Functions,totalorderfN
+1485,FP Comparison Functions,totalorderfNx
+1486,FP Comparison Functions,totalorderl
+1487,FP Comparison Functions,totalordermag
+1488,FP Comparison Functions,totalordermagf
+1489,FP Comparison Functions,totalordermagfN
+1490,FP Comparison Functions,totalordermagfNx
+1491,FP Comparison Functions,totalordermagl
+1492,Case Conversion,toupper
+1493,Wide Character Case Conversion,towctrans
+1494,Wide Character Case Conversion,towlower
+1495,Wide Character Case Conversion,towupper
+1496,Rounding Functions,trunc
+1497,File Size,truncate
+1498,File Size,truncate64
+1499,Rounding Functions,truncf
+1500,Rounding Functions,truncfN
+1501,Rounding Functions,truncfNx
+1502,Rounding Functions,truncl
+1503,Actions in the NSS configuration,tryagain
+1504,Tree Search Function,tsearch
+1505,ISO C Thread-local Storage,tss_create
+1506,ISO C Thread-local Storage,tss_delete
+1507,ISO C Thread-local Storage,tss_get
+1508,ISO C Thread-local Storage,tss_set
+1509,Is It a Terminal,ttyname
+1510,Is It a Terminal,ttyname_r
+1511,Tree Search Function,twalk
+1512,Tree Search Function,twalk_r
+1513,Time Zone Functions,tzset
+1514,Rounding Functions,ufromfp
+1515,Rounding Functions,ufromfpf
+1516,Rounding Functions,ufromfpfN
+1517,Rounding Functions,ufromfpfNx
+1518,Rounding Functions,ufromfpl
+1519,Rounding Functions,ufromfpx
+1520,Rounding Functions,ufromfpxf
+1521,Rounding Functions,ufromfpxfN
+1522,Rounding Functions,ufromfpxfNx
+1523,Rounding Functions,ufromfpxl
+1524,Limits on Resources,ulimit
+1525,Setting Permissions,umask
+1526,Mount-Unmount-Remount,umount
+1527,Mount-Unmount-Remount,umount2
+1528,Platform Type,uname
+1529,Actions in the NSS configuration,unavail
+1530,How Unread,ungetc
+1531,How Unread,ungetwc
+1532,Deleting Files,unlink
+1533,Allocation,unlockpt
+1534,Environment Access,unsetenv
+1535,Manipulating the Database,updwtmp
+1536,File Times,utime
+1537,File Times,utimes
+1538,Manipulating the Database,utmpname
+1539,XPG Functions,utmpxname
+1540,Aligned Memory Blocks,valloc
+1541,Variable Arguments Output,vasprintf
+1542,Argument Macros,va_arg
+1543,Argument Macros,va_copy
+1544,Argument Macros,va_end
+1545,Argument Macros,va_start
+1546,Error Messages,verr
+1547,Error Messages,verrx
+1548,Scanning Directory Content,versionsort
+1549,Scanning Directory Content,versionsort64
+1550,Creating a Process,vfork
+1551,Variable Arguments Output,vfprintf
+1552,Variable Arguments Input,vfscanf
+1553,Variable Arguments Output,vfwprintf
+1554,Variable Arguments Input,vfwscanf
+1555,Limits on Resources,vlimit
+1556,Variable Arguments Output,vprintf
+1557,Variable Arguments Input,vscanf
+1558,Variable Arguments Output,vsnprintf
+1559,Variable Arguments Output,vsprintf
+1560,Variable Arguments Input,vsscanf
+1561,Variable Arguments Output,vswprintf
+1562,Variable Arguments Input,vswscanf
+1563,syslog; vsyslog,vsyslog
+1564,Resource Usage,vtimes
+1565,Error Messages,vwarn
+1566,Error Messages,vwarnx
+1567,Variable Arguments Output,vwprintf
+1568,Variable Arguments Input,vwscanf
+1569,Process Completion,wait
+1570,BSD Wait Functions,wait3
+1571,Process Completion,wait4
+1572,Process Completion,waitpid
+1573,Error Messages,warn
+1574,Error Messages,warnx
+1575,Process Completion Status,WCOREDUMP
+1576,Copying Strings and Arrays,wcpcpy
+1577,Truncating Strings,wcpncpy
+1578,Converting a Character,wcrtomb
+1579,String/Array Comparison,wcscasecmp
+1580,Concatenating Strings,wcscat
+1581,Search Functions,wcschr
+1582,Search Functions,wcschrnul
+1583,String/Array Comparison,wcscmp
+1584,Collation Functions,wcscoll
+1585,Copying Strings and Arrays,wcscpy
+1586,Search Functions,wcscspn
+1587,Copying Strings and Arrays,wcsdup
+1588,Formatting Calendar Time,wcsftime
+1589,String Length,wcslen
+1590,String/Array Comparison,wcsncasecmp
+1591,Truncating Strings,wcsncat
+1592,String/Array Comparison,wcsncmp
+1593,Truncating Strings,wcsncpy
+1594,String Length,wcsnlen
+1595,Converting Strings,wcsnrtombs
+1596,Search Functions,wcspbrk
+1597,Search Functions,wcsrchr
+1598,Converting Strings,wcsrtombs
+1599,Search Functions,wcsspn
+1600,Search Functions,wcsstr
+1601,Parsing of Floats,wcstod
+1602,Parsing of Floats,wcstof
+1603,Parsing of Floats,wcstofN
+1604,Parsing of Floats,wcstofNx
+1605,Parsing of Integers,wcstoimax
+1606,Finding Tokens in a String,wcstok
+1607,Parsing of Integers,wcstol
+1608,Parsing of Floats,wcstold
+1609,Parsing of Integers,wcstoll
+1610,Non-reentrant String Conversion,wcstombs
+1611,Parsing of Integers,wcstoq
+1612,Parsing of Integers,wcstoul
+1613,Parsing of Integers,wcstoull
+1614,Parsing of Integers,wcstoumax
+1615,Parsing of Integers,wcstouq
+1616,Search Functions,wcswcs
+1617,Collation Functions,wcsxfrm
+1618,Converting a Character,wctob
+1619,Non-reentrant Character Conversion,wctomb
+1620,Wide Character Case Conversion,wctrans
+1621,Classification of Wide Characters,wctype
+1622,Process Completion Status,WEXITSTATUS
+1623,Process Completion Status,WIFEXITED
+1624,Process Completion Status,WIFSIGNALED
+1625,Process Completion Status,WIFSTOPPED
+1626,Search Functions,wmemchr
+1627,String/Array Comparison,wmemcmp
+1628,Copying Strings and Arrays,wmemcpy
+1629,Copying Strings and Arrays,wmemmove
+1630,Copying Strings and Arrays,wmempcpy
+1631,Copying Strings and Arrays,wmemset
+1632,Calling Wordexp,wordexp
+1633,Calling Wordexp,wordfree
+1634,Formatted Output Functions,wprintf
+1635,I/O Primitives,write
+1636,Scatter-Gather,writev
+1637,Formatted Input Functions,wscanf
+1638,Process Completion Status,WSTOPSIG
+1639,Process Completion Status,WTERMSIG
+1640,Special Functions,y0
+1641,Special Functions,y0f
+1642,Special Functions,y0fN
+1643,Special Functions,y0fNx
+1644,Special Functions,y0l
+1645,Special Functions,y1
+1646,Special Functions,y1f
+1647,Special Functions,y1fN
+1648,Special Functions,y1fNx
+1649,Special Functions,y1l
+1650,Special Functions,yn
+1651,Special Functions,ynf
+1652,Special Functions,ynfN
+1653,Special Functions,ynfNx
+1654,Special Functions,ynl
