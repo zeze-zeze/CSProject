@@ -1,6 +1,6 @@
 import os
 import pickle
-import PrimaryMatching as PM
+#import PrimaryMatching as PM
 
 def backup(p1, p2):
     pm = PM.PrimaryMatching(p1, p2)
@@ -75,24 +75,29 @@ def compareDir(dir1, dir2):
             matching = open('matching', 'a')
             matching.write('{}\t{}\t{}\n'.format(f1, f2, sim))
 
-def rank1Percent(matching_file, total):
+def evaluate(matching_file, sim_threshold, rank_threshold):
     matching = open(matching_file).read().strip().split('\n')
     count = 0
-    for i in range(0, len(matching), total):
-        max_ = -1
-        for j in range(i, i + total):
-            m = matching[j].split('\t')
-            f1, f2, sim = m[0], m[1], float(m[2])
-            if sim > max_:
-                now = m
-                max_ = sim
-        #print(now)
-        if now[0] == now[1]:
-            count += 1
-        else:
-            print(now)
+    now = ''
+    sims = [0 for i in range(100)]
+    truth = 1
+    for m in matching:
+        m = m.split('\t')
+        if now != m[0]:
+            sims.sort(reverse = True)
+            for s in range(len(sims)):
+                if truth >= sims[s]:
+                    index = s
+                    break
+            if truth < sim_threshold or truth < sims[rank_threshold - 1]:
+                print(now, truth, index)
+            sims = []
 
-    print('rank 1: {}%\n'.format(count / total * 100))
+        now = m[0]
+        sims.append(float(m[2]))
+        if m[0] == m[1]:
+            truth = float(m[2])
+
  
-rank1Percent('matching', 109)   
+evaluate('matching', 0.85, 3)
 #compareDir('backup/coreutils_O2/', 'backup/coreutils_O3/')

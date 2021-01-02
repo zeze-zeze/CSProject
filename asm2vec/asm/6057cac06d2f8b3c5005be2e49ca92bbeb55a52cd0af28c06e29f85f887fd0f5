@@ -1,0 +1,70 @@
+LABEL0:
+ push rbp
+ mov rbp, rdi
+ push rbx
+ mov ebx, esi
+ sub rsp, 8
+ call CONST
+ movzx edx, byte [rax]
+ and edx, CONST
+ cmp dl, CONST
+ cjmp LABEL9
+ movzx edx, byte [rax + 1]
+ and edx, CONST
+ cmp dl, CONST
+ cjmp LABEL13
+ movzx edx, byte [rax + 2]
+ and edx, CONST
+ cmp dl, CONST
+ cjmp LABEL13
+ cmp byte [rax + 3], CONST
+ cjmp LABEL13
+ cmp byte [rax + 4], CONST
+ cjmp LABEL13
+ cmp byte [rax + 5], 0
+ cjmp LABEL13
+ cmp byte [rbp], CONST
+ lea rax, qword [rip + CONST]
+ lea rdx, qword [rip + CONST]
+ cmovne rax, rdx
+ add rsp, 8
+ pop rbx
+ pop rbp
+ ret
+LABEL9:
+ cmp dl, CONST
+ cjmp LABEL13
+ movzx edx, byte [rax + 1]
+ and edx, CONST
+ cmp dl, CONST
+ cjmp LABEL13
+ cmp byte [rax + 2], CONST
+ cjmp LABEL13
+ cmp byte [rax + 3], CONST
+ cjmp LABEL41
+LABEL13:
+ cmp ebx, 9
+ lea rax, qword [rip + CONST]
+ lea rdx, qword [rip + CONST]
+ cmovne rax, rdx
+ add rsp, 8
+ pop rbx
+ pop rbp
+ ret
+LABEL41:
+ cmp byte [rax + 4], CONST
+ cjmp LABEL13
+ cmp byte [rax + 5], CONST
+ cjmp LABEL13
+ cmp byte [rax + 6], CONST
+ cjmp LABEL13
+ cmp byte [rax + 7], 0
+ cjmp LABEL13
+ cmp byte [rbp], CONST
+ lea rax, qword [rip + CONST]
+ lea rdx, qword [rip + CONST]
+ cmovne rax, rdx
+ add rsp, 8
+ pop rbx
+ pop rbp
+ ret

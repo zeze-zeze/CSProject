@@ -1,0 +1,16 @@
+LABEL0:
+ lea rdi, qword [rip + CONST]
+ lea rsi, qword [rip + CONST]
+ sub rsi, rdi
+ mov rax, rsi
+ shr rsi, CONST
+ sar rax, 3
+ add rsi, rax
+ sar rsi, 1
+ cjmp LABEL8
+ mov rax, qword [rip + CONST]
+ test rax, rax
+ cjmp LABEL8
+ jmp rax
+LABEL8:
+ ret

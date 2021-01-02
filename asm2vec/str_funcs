@@ -1,0 +1,108 @@
+func0:
+	endbr64
+	push	r12
+	mov	r12,rsi
+	push	rbp
+	push	rbx
+	mov	ebx,edi
+	mov	rdi,QWORD	PTR	[rsi]
+	call	4400	<set_program_name>
+	lea	rsi,[rip+0x9185]	#	b841	<quoting_style_vals+0xa1>
+	mov	edi,0x6
+	call	25a0	<setlocale@plt>
+	lea	rsi,[rip+0x7aa6]	#	a173	<_IO_stdin_used+0x173>
+	lea	rdi,[rip+0x7a66]	#	a13a	<_IO_stdin_used+0x13a>
+	call	2400	<bindtextdomain@plt>
+	lea	rdi,[rip+0x7a5a]	#	a13a	<_IO_stdin_used+0x13a>
+	call	23e0	<textdomain@plt>
+	lea	rdi,[rip+0x1c04]	#	42f0	<close_stdout>
+	mov	DWORD	PTR	[rip+0xc922],0x2	#	f018	<exit_failure>
+	call	9650	<atexit>
+	mov	QWORD	PTR	[rip+0xc9ae],r12	#	f0b0	<argv>
+	cmp	ebx,0x2
+	je	.LABEL91959662	
+	cmp	ebx,0x1
+	jle	.LABEL42184347	
+	movsxd	rax,ebx
+	lea	rsi,[rip+0x7aa4]	#	a1be	<_IO_stdin_used+0x1be>
+	mov	rdi,QWORD	PTR	[r12+rax*8-0x8]
+	call	24e0	<strcmp@plt>
+	test	eax,eax
+	jne	.LABEL42184347	
+	mov	DWORD	PTR	[rip+0xc986],0x1	#	f0bc	<pos>
+	lea	eax,[rbx-0x1]
+	lea	edi,[rbx-0x2]
+	mov	DWORD	PTR	[rip+0xc976],eax	#	f0b8	<argc>
+	call	3900	<posixtest>
+	movsxd	rdx,DWORD	PTR	[rip+0xc96e]	#	f0bc	<pos>
+	cmp	edx,DWORD	PTR	[rip+0xc964]	#	f0b8	<argc>
+	jne	.LABEL11618873	
+	xor	eax,0x1
+	movzx	r12d,al
+.LABEL67205552:
+	mov	eax,r12d
+	pop	rbx
+	pop	rbp
+	pop	r12
+	ret
+.LABEL91959662:
+	mov	rbp,QWORD	PTR	[r12+0x8]
+	lea	rsi,[rip+0x7a16]	#	a18b	<_IO_stdin_used+0x18b>
+	mov	rdi,rbp
+	call	24e0	<strcmp@plt>
+	test	eax,eax
+	je	.LABEL31809551	
+	lea	rsi,[rip+0x7a06]	#	a192	<_IO_stdin_used+0x192>
+	mov	rdi,rbp
+	call	24e0	<strcmp@plt>
+	mov	r12d,eax
+	test	eax,eax
+	je	.LABEL28597911	
+	lea	rsi,[rip+0x7a1c]	#	a1be	<_IO_stdin_used+0x1be>
+	mov	rdi,rbp
+	call	24e0	<strcmp@plt>
+	test	eax,eax
+	jne	.LABEL42184347	
+	mov	DWORD	PTR	[rip+0xc900],0x1	#	f0b8	<argc>
+	mov	r12d,0x1
+	mov	DWORD	PTR	[rip+0xc8f4],0x1	#	f0bc	<pos>
+	jmp	.LABEL67205552	
+.LABEL28597911:
+	push	rax
+	mov	rcx,QWORD	PTR	[rip+0xc83e]	#	f010	<Version>
+	xor	eax,eax
+	lea	rdx,[rip+0x795b]	#	a136	<_IO_stdin_used+0x136>
+	push	0x0
+	mov	rdi,QWORD	PTR	[rip+0xc8a4]	#	f088	<stdout@@GLIBC_2.2.5>
+	lea	r9,[rip+0x79b1]	#	a19c	<_IO_stdin_used+0x19c>
+	lea	r8,[rip+0x79bb]	#	a1ad	<_IO_stdin_used+0x1ad>
+	lea	rsi,[rip+0x7924]	#	a11d	<_IO_stdin_used+0x11d>
+	call	6a10	<version_etc>
+	pop	rdx
+	pop	rcx
+	jmp	.LABEL67205552	
+.LABEL42184347:
+	lea	rdi,[rip+0x79b2]	#	a1be	<_IO_stdin_used+0x1be>
+	call	6170	<quote>
+	mov	edx,0x5
+	lea	rsi,[rip+0x79a3]	#	a1c0	<_IO_stdin_used+0x1c0>
+	mov	rbp,rax
+.LABEL61876657:
+	xor	edi,edi
+	call	2410	<dcgettext@plt>
+	mov	rsi,rbp
+	mov	rdi,rax
+	xor	eax,eax
+	call	2b60	<test_syntax_error>
+.LABEL11618873:
+	mov	rax,QWORD	PTR	[rip+0xc875]	#	f0b0	<argv>
+	mov	rdi,QWORD	PTR	[rax+rdx*8]
+	call	6170	<quote>
+	mov	edx,0x5
+	lea	rsi,[rip+0x797b]	#	a1cb	<_IO_stdin_used+0x1cb>
+	mov	rbp,rax
+	jmp	.LABEL61876657	
+.LABEL31809551:
+	xor	edi,edi
+	call	3ef0	<usage>
+	nop	DWORD	PTR	[rax+0x0]

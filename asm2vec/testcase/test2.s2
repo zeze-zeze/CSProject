@@ -1,0 +1,37 @@
+main:
+     endbr64 
+    push   rbp
+    mov    rbp,rsp #asd
+    sub    rsp,0x10
+    a#mov    DWORD PTR [rbp-0xc],0x0
+    mov    DWORD PTR [rbp-0x8],0x0
+    mov    DWORD PTR [rbp-0x4],0x0
+    mov    DWORD PTR [rbp-0xc],0x0
+    jmp    11c7 <main+0x7e>
+    cmp    DWORD PTR [rbp-0xc],0x4
+    jg     119f <main+0x56>
+    mov    DWORD PTR [rbp-0x8],0x0
+    jmp    1197 <main+0x4e>
+    lea    rdi,[rip+0xe7b]        # 2004 <_IO_stdin_used+0x4>
+    mov    eax,0x0
+    call   1050 <printf@plt>
+    add    DWORD PTR [rbp-0x8],0x1
+    cmp    DWORD PTR [rbp-0x8],0x2
+    jle    1182 <main+0x39>
+    jmp    11c3 <main+0x7a>
+    mov    DWORD PTR [rbp-0x4],0x0
+    jmp    11bd <main+0x74>
+    lea    rdi,[rip+0xe59]        # 2008 <_IO_stdin_used+0x8>
+    mov    eax,0x0
+    call   1050 <printf@plt>
+    add    DWORD PTR [rbp-0x4],0x1
+    cmp    DWORD PTR [rbp-0x4],0x2
+    jle    11a8 <main+0x5f>
+    add    DWORD PTR [rbp-0xc],0x1
+    cmp    DWORD PTR [rbp-0xc],0x9
+    jle    1173 <main+0x2a>
+    mov    eax,0x0
+    leave  
+    ret    
+    nop    WORD PTR cs:[rax+rax*1+0x0]
+    xchg   ax,ax

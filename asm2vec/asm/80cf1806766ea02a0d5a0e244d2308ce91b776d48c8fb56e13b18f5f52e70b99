@@ -1,0 +1,35 @@
+LABEL0:
+ push rbp
+ mov rbp, rsp
+ mov eax, edi
+ mov byte [rbp - 4], al
+ movzx eax, byte [rbp - 4]
+ sub eax, CONST
+ cmp eax, CONST
+ cjmp LABEL7
+ mov eax, eax
+ lea rdx, qword [rax*4]
+ lea rax, qword [rip + CONST]
+ mov eax, dword [rdx + rax]
+ cdqe
+ lea rdx, qword [rip + CONST]
+ add rax, rdx
+ jmp rax
+LABEL7:
+ movzx eax, byte [rbp - 4]
+ sub eax, CONST
+ jmp LABEL18
+ mov eax, CONST
+ jmp LABEL18
+ mov eax, CONST
+ jmp LABEL18
+ mov eax, CONST
+ jmp LABEL18
+ mov eax, CONST
+ jmp LABEL18
+ mov eax, CONST
+ jmp LABEL18
+ mov eax, CONST
+LABEL18:
+ pop rbp
+ ret

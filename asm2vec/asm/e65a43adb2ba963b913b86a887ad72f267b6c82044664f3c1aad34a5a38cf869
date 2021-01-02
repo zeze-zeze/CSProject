@@ -1,0 +1,11 @@
+LABEL0:
+ lea rdi, qword [rip + CONST]
+ lea rax, qword [rip + CONST]
+ cmp rax, rdi
+ cjmp LABEL3
+ mov rax, qword [rip + CONST]
+ test rax, rax
+ cjmp LABEL3
+ jmp rax
+LABEL3:
+ ret

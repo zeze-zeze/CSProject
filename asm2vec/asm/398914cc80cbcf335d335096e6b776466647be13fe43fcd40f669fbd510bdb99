@@ -1,0 +1,77 @@
+LABEL0:
+ push rbp
+ mov rbp, rsp
+ push r12
+ push rbx
+ sub rsp, CONST
+ mov dword [rbp - CONST], edi
+ cmp dword [rbp - CONST], 0
+ cjmp LABEL7
+ lea rcx, qword [rip + CONST]
+ mov edx, CONST
+ lea rsi, qword [rip + CONST]
+ lea rdi, qword [rip + CONST]
+ call CONST
+LABEL7:
+ mov r12, qword [rip + CONST]
+ mov rbx, qword [rip + CONST]
+ lea rdi, qword [rip + CONST]
+ call CONST
+ mov rdx, r12
+ mov rsi, rbx
+ mov rdi, rax
+ mov eax, 0
+ call CONST
+ mov rbx, qword [rip + CONST]
+ lea rdi, qword [rip + CONST]
+ call CONST
+ mov rsi, rbx
+ mov rdi, rax
+ call CONST
+ mov rbx, qword [rip + CONST]
+ lea rdi, qword [rip + CONST]
+ call CONST
+ mov rsi, rbx
+ mov rdi, rax
+ call CONST
+ mov rbx, qword [rip + CONST]
+ lea rdi, qword [rip + CONST]
+ call CONST
+ mov rsi, rbx
+ mov rdi, rax
+ call CONST
+ mov rbx, qword [rip + CONST]
+ lea rdi, qword [rip + CONST]
+ call CONST
+ mov rsi, rbx
+ mov rdi, rax
+ call CONST
+ mov rbx, qword [rip + CONST]
+ lea rdi, qword [rip + CONST]
+ call CONST
+ mov rsi, rbx
+ mov rdi, rax
+ call CONST
+ mov rbx, qword [rip + CONST]
+ lea rdi, qword [rip + CONST]
+ call CONST
+ mov rsi, rbx
+ mov rdi, rax
+ call CONST
+ mov rbx, qword [rip + CONST]
+ lea rdi, qword [rip + CONST]
+ call CONST
+ mov rsi, rbx
+ mov rdi, rax
+ call CONST
+ lea rdi, qword [rip + CONST]
+ call CONST
+ lea rsi, qword [rip + CONST]
+ mov rdi, rax
+ mov eax, 0
+ call CONST
+ lea rdi, qword [rip + CONST]
+ call CONST
+ mov eax, dword [rbp - CONST]
+ mov edi, eax
+ call CONST
