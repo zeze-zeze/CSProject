@@ -2,7 +2,7 @@
 NCTU 2020 Computer Science and Engineering Projects. We research on the topic of binary code clone detection, so we reference many papers and implement some of them.
 
 
-## [GroundTruth](./GroundTruth)
+## GroundTruth]
 ### Introduction
 Get the versions of packages and the binary in all openwrt versions. We use this as our testing data.
 
@@ -26,7 +26,7 @@ Parse the binary to assembly to meet the [github repo](https://github.com/Lancer
 ### Usage
 Use Jupyter notebook to open the asm2vec.ipynb and run.
 
-## [Reference](./paper)
+## Reference
 * BINGO
 * BINGO-E
 * asm2vec
